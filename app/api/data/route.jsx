@@ -1,11 +1,5 @@
 import { openDB } from "@/utils/connect";
 
-export const config = {
-  api: {
-    bodyParser: true,
-  },
-};
-
 export async function GET(req) {
   try {
     console.log("GET request received.");
